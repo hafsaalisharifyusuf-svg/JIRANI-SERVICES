@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book a Service - Jirani Services</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">Jirani Services</div>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="workers.html">Workers</a>
+        <a href="booking.html">Book Service</a>
+        <a href="contact.html">Contact</a>
+        <a href="admin.html" class="admin-link">Admin</a>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Book a Professional Service</h1>
+    <p>Fill in the details below to schedule your service.</p>
+</section>
+
+<section>
+    <form id="bookingForm" class="booking-form">
+        <input type="text" id="customerName" placeholder="Your Full Name" required>
+        <input type="text" id="contactNumber" placeholder="Contact Number" required>
+
+        <select id="workerSelect" required>
+            <option value="">Select Worker</option>
+        </select>
+
+        <input type="date" id="serviceDate" required>
+
+        <button type="submit">Create Booking</button>
+    </form>
+</section>
+
+<footer class="footer">
+    <p>© 2026 Jirani Services. All rights reserved.</p>
+</footer>
+
+<script src="home.js"></script>
+</body>
+</html>

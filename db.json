@@ -1,0 +1,26 @@
+{
+  "workers": [
+    { "id": 1, "name": "John Mwangi", "profession": "Plumber", "rating": "4.8 ⭐", "image": "workers/plumber.jpg" },
+    { "id": 2, "name": "Grace Njeri", "profession": "Electrician", "rating": "4.7 ⭐", "image": "workers/electrician.jpg" },
+    { "id": 3, "name": "Peter Otieno", "profession": "Cleaner", "rating": "4.6 ⭐", "image": "workers/cleaner.jpg" },
+    { "id": 4, "name": "Mary Wanjiku", "profession": "Carpenter", "rating": "4.9 ⭐", "image": "workers/carpenter.jpg" },
+    { "id": 5, "name": "David Kimani", "profession": "Painter", "rating": "4.5 ⭐", "image": "workers/painter.jpg" },
+    { "id": 6, "name": "Angela Achieng", "profession": "Gardener", "rating": "4.6 ⭐", "image": "workers/gardener.jpg" },
+    { "id": 7, "name": "Samuel Odhiambo", "profession": "Mechanic", "rating": "4.7 ⭐", "image": "workers/mechanic.jpg" },
+    { "id": 8, "name": "Faith Wairimu", "profession": "Tailor", "rating": "4.8 ⭐", "image": "workers/tailor.jpg" },
+    { "id": 9, "name": "Linda Naliaka", "profession": "Cook", "rating": "4.9 ⭐", "image": "workers/cook.jpg" },
+    { "id": 10, "name": "Kevin Otieno", "profession": "Mason", "rating": "4.6 ⭐", "image": "workers/mason.jpg" }
+  ],
+  "bookings": [
+    { "id": 1, "customerName": "Ali Hassan", "contactNumber": "0700000001", "workerId": 1, "workerName": "John Mwangi", "serviceDate": "2026-02-20", "status": "Pending" },
+    { "id": 2, "customerName": "Mary Akinyi", "contactNumber": "0700000002", "workerId": 2, "workerName": "Grace Njeri", "serviceDate": "2026-02-21", "status": "Approved" },
+    { "id": 3, "customerName": "James Otieno", "contactNumber": "0700000003", "workerId": 3, "workerName": "Peter Otieno", "serviceDate": "2026-02-22", "status": "Rejected" },
+    { "id": 4, "customerName": "Faith Wanjiku", "contactNumber": "0700000004", "workerId": 4, "workerName": "Mary Wanjiku", "serviceDate": "2026-02-23", "status": "Pending" },
+    { "id": 5, "customerName": "Kevin Mutua", "contactNumber": "0700000005", "workerId": 5, "workerName": "David Kimani", "serviceDate": "2026-02-24", "status": "Approved" },
+    { "id": 6, "customerName": "Sarah Achieng", "contactNumber": "0700000006", "workerId": 6, "workerName": "Angela Achieng", "serviceDate": "2026-02-25", "status": "Pending" },
+    { "id": 7, "customerName": "Daniel Mwangi", "contactNumber": "0700000007", "workerId": 7, "workerName": "Samuel Odhiambo", "serviceDate": "2026-02-26", "status": "Rejected" },
+    { "id": 8, "customerName": "Esther Njeri", "contactNumber": "0700000008", "workerId": 8, "workerName": "Faith Wairimu", "serviceDate": "2026-02-27", "status": "Approved" },
+    { "id": 9, "customerName": "Brian Ouma", "contactNumber": "0700000009", "workerId": 9, "workerName": "Linda Naliaka", "serviceDate": "2026-02-28", "status": "Pending" },
+    { "id": 10, "customerName": "Aisha Ali", "contactNumber": "0700000010", "workerId": 10, "workerName": "Kevin Otieno", "serviceDate": "2026-03-01", "status": "Approved" }
+  ]
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard - Jirani Services</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">Jirani Services - Admin</div>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="workers.html">Workers</a>
+        <a href="booking.html">Book Service</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Admin Dashboard</h1>
+    <p>Manage all service bookings.</p>
+</section>
+
+<section>
+
+    <div class="dashboard-cards">
+        <div class="dashboard-card">
+            <h3>Total Bookings</h3>
+            <span id="totalBookings">0</span>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>Pending</h3>
+            <span id="pendingCount">0</span>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>Approved</h3>
+            <span id="approvedCount">0</span>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>Rejected</h3>
+            <span id="rejectedCount">0</span>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Customer</th>
+                <th>Worker</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="bookingsTableBody">
+        </tbody>
+    </table>
+
+</section>
+
+<footer class="footer">
+    <p>© 2026 Jirani Services Admin Panel</p>
+</footer>
+
+<script src="home.js"></script>
+</body>
+</html>
